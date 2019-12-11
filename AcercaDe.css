@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F0EEF4;
+}
+
+header, .cuerpo, footer{
+	width:98%;
+	max-width: 1300px;
+	margin:20px auto;
+	overflow: hidden;
+
+}
+
+header nav{
+	background: #9B98A3;
+	overflow: hidden;
+}
+
+header nav ul li a{
+	text-align: tops;
+}
+
+header nav ul{
+	list-style: none;
+} 
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li a{
+	font-family: consolas;
+	margin: 0px 70px;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #706D77;  
+	text-decoration-line: underline;
+}
+
+
+.cuerpo ul li {
+	list-style: none;
+	color: #000;
+	text-align: center;
+	float: left;
+	padding-left: 29px;
+	
+}
+
+.cuerpo ul li p{
+	color: #000;
+	font-family: Consolas;
+	padding: 5px;
+}
+
+
+
+footer{
+	background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+ legend{
+ 	margin-left: 20px;
+ 	font-family: Prestige Elite Std;								
+ 	padding-bottom: 10px;
+ }
+
+ fieldset{
+ 	padding-bottom: 10px;
+ 	background: #929292;
+ }

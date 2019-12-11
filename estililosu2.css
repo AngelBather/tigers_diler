@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F0EEF4;
+}
+
+header, footer{
+	width:98%;
+	max-width: 1300px;
+	margin:20px auto;
+	overflow: hidden;
+
+}
+
+header nav{
+	background: #9B98A3;
+	overflow: hidden;
+}
+
+header nav ul li a{
+	text-align: tops;
+}
+
+header nav ul{
+	list-style: none;
+} 
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li a{
+	font-family: consolas;
+	margin: 0px 70px;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #706D77;  
+	text-decoration-line: underline;
+}
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box; 
+}
+
+/*body{
+    -webkit-background: cover;
+    background-attachment: fixed;
+    font-family: roboto;
+    font size: 16px;
+}*/
+
+.contenedor  .header .titulo{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	padding: 14px;
+}
+
+.contenedor  .header .titulo span{
+color: aqua;
+}
+
+.contenedor {
+	background:rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 10px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.contenedor  .label{
+	display: block;
+	color: aqua;
+	font-size: 16px;
+	font-family: roboto;
+	position: relative;
+}
+
+
+.contenedor .radios1 {
+color: aqua;
+position: relative;
+cursor: pointer;
+margin:10px;
+}
+
+.caja {
+   margin:20px auto 40px auto;	
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 230px;
+   position:relative;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 250px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+
+.contenedor .input, .textarea{
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid aqua;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color:#fff;
+    font-family:roboto;
+}
+
+
+.contenedor  .textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px,
+}
+
+.contenedor  .submit{
+	width: 100%;
+	font-family: roboto;
+	outline: none;
+	background: aqua;
+	font-size: 16px;
+	border:none;
+	color: #000;
+	padding: 15px 0px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.contenedor  .submit:hover{
+	background: #000;
+	color: #fff;
+}
+
+footer{
+		background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}

@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F0EEF4;
+}
+
+header, footer{
+	width:98%;
+	max-width: 1300px;
+	margin:20px auto;
+	overflow: hidden;
+
+}
+
+header nav{
+	background: #9B98A3;
+	overflow: hidden;
+}
+
+header nav ul li a{
+	text-align: tops;
+}
+
+header nav ul{
+	list-style: none;
+} 
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li a{
+	font-family: consolas;
+	margin: 0px 70px;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #706D77; 
+	text-decoration-line: underline; 
+
+}
+/*.slider ul li img{
+	width: 1000px;
+	height: 541px;
+}
+
+.slider{
+	width: 95%
+	margin:auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 15s infinite;
+	animation-direction: alternate;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider img{
+	width: 100%;
+}
+
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;} 
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+
+}*/
+
+footer{
+	background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.tablas{
+	font-style: #000;
+	color: #000;
+	padding-left: 40px, 0px;
+}
+
+.tablas img{
+	height :150px; 
+	width: 250px;
+	padding-left: 116px;
+}
+
+.tablas p{
+	padding-left: 240px; 
+	font-family: Adobe Heiti Std;
+}
+
+.tablas input{
+	width: 250px;
+	height: 40px;
+	margin-left: 116px;
+	margin-bottom: 7px;
+	background: green;
+	color: #fff;
+	cursor:pointer;
+}
+
+.texto table {
+	width: 250px;
+	height: 40px;
+	padding: 20px 4px;
+	padding-left: 30px;
+	padding-right: 440px;
+}
+
+.tablas table tr td p{
+	text-align: left;
+	
+}
+
+p{
+	font-family: consolas;
+	margin-left: 50px;
+	padding-left: 200px;
+}
+
+.input{
+	font-family: consolas;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

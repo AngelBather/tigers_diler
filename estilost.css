@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #fff;
+}
+
+.logo h2 p{
+	font-family: Gill Sans MT;
+}
+
+header{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	margin: 20px auto;
+}
+
+header nav{
+	background: #528FD5;
+}
+
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float:left; 
+	font-family: Gill Sans MT;
+}
+
+header nav ul li a{
+	padding: 10px 35px;
+	display: block;
+	color: #fff;
+	text-decoration:none; 
+}
+
+header nav ul li a:hover{
+	background: #75ACEC;
+}

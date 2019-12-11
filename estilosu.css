@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color:#fff;
+}
+
+
+header{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	margin: 20px auto;
+}
+
+header nav{
+	background: #528FD5;
+}
+
+header nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float:left; 
+	font-family: Gill Sans MT;
+}
+
+header nav ul li a{
+	font-family: consolas;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration:none; 
+}
+
+header nav ul li a:hover{
+	background: #75ACEC;
+	text-decoration-line: underline;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
