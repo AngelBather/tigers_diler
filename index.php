@@ -1,3 +1,14 @@
+<?php 
+	session_start();
+	
+	// if(!isset($_SESSION['id'],$_SESSION['user_role_id']))
+	// {
+	// 	header('location:login.php?lmsg=true');
+	// 	exit;
+	// }		
+	
+	require_once('database/config.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,17 +21,24 @@
 			<br>
 		<nav>
 			<ul>
-				<li><a href="Login.html">Login</a></li>
-				<li><a href="Inicio.html">Inicio</a></li>
-				<li><a href="Productos.html">Productos</a></li>
-				<li><a href="ubicacion.html">Ubicacion</a></li>
-				<li><a href="AcercaDe.html">Creadores</a></li>
+				<li><a href="index.php">Inicio</a></li>
+				<li><a href="productos.php">Productos</a></li>
+				<li><a href="ubicacion.php">Ubicacion</a></li>
+				<li><a href="AcercaDe.php">Creadores</a></li>
+				<?php 
+				if(isset($_SESSION['id'],$_SESSION['user_role_id']))
+				{
+					echo	'<li><a href="/">Perfil</a></li>';
+					echo	'<li><a href="login.php?logout=true">Logout</a></li>';
+					echo 	"<li><strong>".getUserAccessRoleByID($_SESSION['user_role_id']);"</strong></li>";
+				}else {
+					echo '<li><a href="login.php">Login</a></li>';
+				}
+				?>
+				
 			</ul>
 		</nav>
 	</header>
-
-	
-	
 	<section class="main">
 		<section class="articles">
 		<article>
@@ -55,6 +73,25 @@
 	</footer>
 
      
-     
+	 <style>
+	 
+	 header nav ul li a {
+		font-family: consolas;
+		margin: 0 !important;
+		padding: 10px 30px;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+	}
+	header nav ul li {
+   	 	float: none !important;
+	}
+	header nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
 </body>
 </html>

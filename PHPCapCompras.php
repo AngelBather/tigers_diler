@@ -3,7 +3,7 @@
 $server = "localhost";
 $usuario = "root";
 $contra = "";
-$database = "Diller";
+$database = "tigers_diler";
 
 $Nombre = $_POST['Nombre'];
 $Apellido = $_POST['Apellido'];
